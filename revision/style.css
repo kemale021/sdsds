@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(http://demo.cssmoban.com/cssthemes3/mstp_50_revision/images/backgrounds/bg_img01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Container{
+    width: 80%;
+    margin: auto;
+}
+.body-Container{  
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+#Header{
+    background-color: #fff;
+    padding: 50px 0 30px;
+}
+.Logo ,.Navbar{
+    width: 50%;
+}   
+.Logo a{
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 900;
+    color: #333;
+    letter-spacing: 1px;
+}
+.Logo a span{
+    color: #fec333;
+}
+.Navbar ul li{
+    list-style: none;
+    color: #959595;
+    padding-left: 30px;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    color: #959595;
+    letter-spacing: -0.8px;
+    font-size: 14px;
+    transition: all .3s;
+}
+.Black{
+    color: black !important;
+}
+.align-center{
+    align-items: flex-end;
+    height: 100%;
+}
+.Navbar ul li a:hover{
+    color: black;
+}
